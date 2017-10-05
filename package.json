@@ -1,7 +1,7 @@
 {
   "name": "@helpscout/doc-article-styles",
   "public": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Doc Article CSS for Web/Android/iOS",
   "main": "index.js",
   "scripts": {
