@@ -1,4 +1,4 @@
-# Doc Article Styles
+# Doc Article Styles [![Build Status](https://travis-ci.org/helpscout/doc-article-styles.svg?branch=master)](https://travis-ci.org/helpscout/doc-article-styles)
 
 Doc Article CSS for Web/Android/iOS
 
