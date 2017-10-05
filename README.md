@@ -28,7 +28,7 @@ Check it out http://localhost:7008/ in your browser!
 
 ## Publishing
 
-To publish and release a new version of Blue, run the following command:
+To publish and release a new version of this project, run the following command:
 
 ```
 npm run release
