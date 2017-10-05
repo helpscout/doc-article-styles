@@ -14,6 +14,7 @@
     "release:major": "np major",
     "release": "npm run release:patch",
     "start": "gulp",
+    "test": "npm run build",
     "version": "npm run build && git add dist"
   },
   "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
