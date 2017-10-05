@@ -5,10 +5,15 @@
   "description": "Doc Article CSS for Web/Android/iOS",
   "main": "index.js",
   "scripts": {
+    "banner": "node ./scripts/banner.js",
     "clean": "rm -rf dist && mkdir dist",
-    "start": "gulp",
     "build:css": "node scripts/sass.js",
-    "build": "npm run clean && npm run build:css"
+    "build": "npm run clean && npm run build:css && npm run banner",
+    "release:patch": "np patch",
+    "release:minor": "np minor",
+    "release:major": "np major",
+    "release": "npm run release:patch",
+    "start": "gulp"
   },
   "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
   "license": "MIT",
@@ -27,6 +32,7 @@
     "lazypipe": "1.0.1",
     "mkdirp": "0.5.1",
     "node-sass": "4.5.3",
+    "np": "2.16.0",
     "run-sequence": "2.2.0",
     "seed-breakpoints": "0.4.1",
     "seed-color-scheme": "0.3.0",
