@@ -1,0 +1,11 @@
+/**
+ * @helpscout/doc-article-styles v0.0.3
+ * Doc Article CSS
+ * Android
+ */
+
+#fullArticle { box-sizing: border-box; }
+
+#fullArticle { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+
+#fullArticle * { box-sizing: border-box; }
