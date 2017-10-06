@@ -1,0 +1,70 @@
+// defines style for the article contents
+
+.article {
+
+  &--content {
+    font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+    * {
+      max-width: 100%;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: _color(charcoal, 600);
+      font-weight: 500;
+      margin-bottom: .65em;
+    }
+
+    h1 {
+      font-size: 1.9em;
+      margin: .67em 0;
+    }
+
+    h2 {
+      font-size: 1.46em;
+    }
+
+    h3 {
+      font-size: 1.3em;
+    }
+
+    h4 {
+      font-size: 1.2em;
+    }
+
+    h5 {
+      font-size: 0.9em;
+    }
+
+    p {
+      font-size: 0.9em;
+    }
+
+    blockquote, dd, div, li, ol, p, table, ul {
+      color: _color(charcoal, 400);
+      line-height: 1.75em;
+    }
+
+    strong {
+      color: _color(charcoal, 500);
+    }
+
+    blockquote {
+      font-size: 0.9em;
+      border-left: 2px solid _color(grey, 400);
+      padding:  0 0 0 1.5em;
+      margin: 1.5em 1.2em;
+      font-style: italic;
+    }
+
+    hr {
+      border-left: 0;
+      border-right: 0;
+      border-bottom: 0;
+      border-top: 1px solid _color(grey, 400);
+      margin: 2em auto;
+    }
+
+
+  }
+}
