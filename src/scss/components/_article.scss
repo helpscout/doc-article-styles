@@ -2,9 +2,14 @@
 
 #fullArticle {
   font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 1em;
 
   * {
     max-width: 100%;
+  }
+
+  a, input, select, textarea {
+    outline: 0!important;
   }
 
   h1, h2, h3, h4, h5, h6 {
@@ -48,11 +53,11 @@
   }
 
   blockquote {
-    font-size: 0.9em;
     border-left: 2px solid _color(grey, 400);
-    padding:  0 0 0 1.5em;
-    margin: 1.5em 1.2em;
+    font-size: 1em;
     font-style: italic;
+    margin: 1.5em 1.2em;
+    padding:  0 0 0 1.5em;
   }
 
   hr {
@@ -61,6 +66,169 @@
     border-bottom: 0;
     border-top: 1px solid _color(grey, 400);
     margin: 2em auto;
+  }
+
+  pre {
+    background: _color(grey, 300);
+    border-radius: 3px;
+    color: _color(charcoal, 400);
+    font-family: 'Roboto Mono', Consolas, "Andale Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace;
+    font-size: 1em;
+    margin: 0 0 2em;
+    overflow: auto;
+    padding: 1.3em 1em;
+  }
+
+  ul, ol {
+    list-style-position: inside;
+    padding-left: 0.75em;
+  }
+
+  li {
+    margin-bottom: 0.75em;
+  }
+
+  a {
+    color: _color(blue, 500);
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  dl {
+    clear: both;
+    margin: 0 0 1em;
+
+    dt {
+      background: _color(blue, 500);
+      border-radius: 50px;
+      color: _color(white);
+      display: inline-block;
+      float: left;
+      font-size: 0.9em;
+      height: 30px;
+      line-height: 28px;
+      margin: 0;
+      text-align: center;
+      vertical-align: baseline;
+      white-space: nowrap;
+      width: 30px;
+    }
+
+    dd {
+      padding-top: 3px;
+      margin: 0 0 1.5em 3em;
+    }
+  }
+
+  .callout {
+    $callout-padding: 1em 1.5em;
+    $callout-brdr: 2px;
+    $callout-copy-margin: 0 0 0.55em;
+    $callout-weight: 400;
+    $callout-margin: 0 0 2em;
+
+    background: _color(grey, 300);
+    padding: $callout-padding;
+    border-radius: $callout-brdr;
+    border-left: 5px solid _color(grey, 500);
+    margin: $callout-margin;
+
+    h1, h2, h3, h4, h5, h6, p {
+      color: _color(charcoal, 500);
+      margin: $callout-copy-margin;
+      font-weight: $callout-weight;
+    }
+
+    pre {
+      background: _color(grey, 400);
+      color: _color(charcoal, 500);
+      margin: $callout-copy-margin;
+    }
+
+
+    &-yellow {
+      background: _color(yellow, 200);
+      padding: $callout-padding;
+      border-radius: $callout-brdr;
+      border-left: 5px solid _color(yellow, 400);
+      margin: $callout-margin;
+
+      h1, h2, h3, h4, h5, h6, p {
+        color: _color(yellow, 800);
+        margin: $callout-copy-margin;
+        font-weight: $callout-weight;
+      }
+
+      pre {
+        background: _color(grey, 400);
+        color: _color(charcoal, 500);
+        margin: $callout-copy-margin;
+      }
+    }
+
+    &-blue {
+      background: _color(blue, 200);
+      padding: $callout-padding;
+      margin: $callout-margin;
+      border-left: 5px solid _color(blue, 400);
+      border-radius: $callout-brdr;
+
+      h1, h2, h3, h4, h5, h6, p {
+        color: _color(blue, 800);
+        margin: $callout-copy-margin;
+        font-weight: $callout-weight;
+      }
+
+      pre {
+        background: _color(grey, 400);
+        color: _color(charcoal, 500);
+        margin: $callout-copy-margin;
+      }
+    }
+
+    &-green {
+      background: _color(green, 200);
+      padding: $callout-padding;
+      margin: $callout-margin;
+      border-left: 5px solid _color(green, 400);
+      border-radius: $callout-brdr;
+
+      h1, h2, h3, h4, h5, h6, p {
+        color: _color(green, 800);
+        margin: $callout-copy-margin;
+        font-weight: $callout-weight;
+      }
+
+      pre {
+        background: _color(grey, 400);
+        color: _color(charcoal, 500);
+        margin: $callout-copy-margin;
+      }
+    }
+
+    &-red {
+      background: _color(red, 200);
+      padding: $callout-padding;
+      margin: $callout-margin;
+      border-left: 5px solid _color(red, 400);
+      border-radius: $callout-brdr;
+
+      h1, h2, h3, h4, h5, h6, p {
+        color: _color(red, 800);
+        margin: $callout-copy-margin;
+        font-weight: $callout-weight;
+      }
+
+      pre {
+        background: _color(grey, 400);
+        color: _color(charcoal, 500);
+        margin: $callout-copy-margin;
+      }
+    }
+
   }
 
 }
