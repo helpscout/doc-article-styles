@@ -148,6 +148,10 @@
       margin: $callout-copy-margin;
     }
 
+    &.dashed {
+      border: 1px dashed _color(grey, 700);
+    }
+
 
     &-yellow {
       background: _color(yellow, 200);
@@ -166,6 +170,10 @@
         background: _color(grey, 400);
         color: _color(charcoal, 500);
         margin: $callout-copy-margin;
+      }
+
+      &.dashed {
+        border: 1px dashed _color(yellow, 700);
       }
     }
 
@@ -187,6 +195,10 @@
         color: _color(charcoal, 500);
         margin: $callout-copy-margin;
       }
+
+      &.dashed {
+        border: 1px dashed _color(blue, 500);
+      }
     }
 
     &-green {
@@ -207,6 +219,10 @@
         color: _color(charcoal, 500);
         margin: $callout-copy-margin;
       }
+
+      &.dashed {
+        border: 1px dashed _color(green, 500);
+      }
     }
 
     &-red {
@@ -226,6 +242,10 @@
         background: _color(grey, 400);
         color: _color(charcoal, 500);
         margin: $callout-copy-margin;
+      }
+
+      &.dashed {
+        border: 1px dashed _color(red, 500);
       }
     }
 
