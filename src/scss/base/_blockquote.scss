@@ -1,0 +1,9 @@
+@import "pack/seed-color-scheme/_index";
+
+blockquote {
+  border-left: 2px solid _color(grey, 400);
+  font-size: 1em;
+  font-style: italic;
+  margin: 1.5em 1.2em;
+  padding: 0 0 0 1.5em;
+}

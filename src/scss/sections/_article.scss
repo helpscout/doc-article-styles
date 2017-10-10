@@ -3,4 +3,25 @@
 
 #fullArticle {
   @import "../resets/base";
+
+  // Reset Section
+  color: _color(charcoal, 400);
+  font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.75em;
+  padding: 1em;
+
+  // Base
+  @import "../resets/selectors";
+  @import "../base/blockquote";
+  @import "../base/code";
+  @import "../base/heading";
+  @import "../base/hr";
+  @import "../base/image";
+  @import "../base/list";
+  @import "../base/link";
+  @import "../base/table";
+  @import "../base/text";
+
+  // Components
+  @import "../components/callout";
 }

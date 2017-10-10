@@ -1,0 +1,13 @@
+@import "pack/seed-color-scheme/_index";
+@import "../configs/font";
+
+pre {
+  background: _color(grey, 300);
+  border-radius: 3px;
+  color: _color(charcoal, 400);
+  font-family: $font-family-serif;
+  font-size: 1em;
+  margin: 0 0 2em;
+  overflow: auto;
+  padding: 1.3em 1em;
+}

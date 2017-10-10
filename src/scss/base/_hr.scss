@@ -1,0 +1,9 @@
+@import "pack/seed-color-scheme/_index";
+
+hr {
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 1px solid _color(grey, 400);
+  margin: 2em auto;
+}

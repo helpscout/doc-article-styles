@@ -1,0 +1,53 @@
+@import "pack/seed-color-scheme/_index";
+@import "../mixins/callout-styles";
+
+.callout {
+  $themes: (
+    default: (
+      background: _color(grey, 300),
+      border: _color(grey, 500),
+      dashed-color: _color(grey, 500),
+      color: _color(charcoal, 500),
+    ),
+    yellow: (
+      background: _color(yellow, 200),
+      border: _color(yellow, 400),
+      dashed-color: _color(yellow, 700),
+      color: _color(yellow, 800),
+    ),
+    blue: (
+      background: _color(blue, 200),
+      border: _color(blue, 400),
+      dashed-color: _color(blue, 500),
+      color: _color(blue, 800),
+    ),
+    green: (
+      background: _color(green, 200),
+      border: _color(green, 400),
+      dashed-color: _color(green, 500),
+      color: _color(green, 800),
+    ),
+    red: (
+      background: _color(red, 200),
+      border: _color(red, 400),
+      dashed-color: _color(red, 500),
+      color: _color(red, 800),
+    ),
+  );
+
+  @each $theme, $config in $themes {
+    $background: _get($config, background);
+    $border: _get($config, border);
+    $dashed-color: _get($config, dashed-color);
+    $color: _get($config, color);
+
+    @if $theme == "default" {
+      @include callout-styles($background, $border, $color, $dashed-color);
+    }
+    @else {
+      &-#{$theme} {
+        @include callout-styles($background, $border, $color, $dashed-color);
+      }
+    }
+  }
+}

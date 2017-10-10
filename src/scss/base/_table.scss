@@ -1,0 +1,61 @@
+
+@import "pack/seed-color-scheme/_index";
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+
+  thead {
+    color: _color(charcoal, 600);
+    font-weight: 500;
+
+    th {
+      display: table-cell;
+      padding: 0.5em;
+      text-align: left;
+      vertical-align: bottom;
+
+      &:first-child {
+        border-top: 0;
+      }
+    }
+  }
+
+  td {
+    border-top: 1px solid _color(grey, 400);
+    padding: 0.5em;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  // Modifiers
+  &.table-striped {
+    tr {
+      &:nth-child(odd) {
+        td {
+          background: _color(grey, 200);
+        }
+      }
+    }
+  }
+
+  &.table-bordered {
+    border-collapse: separate;
+    border-radius: 3px;
+    border: 1px solid _color(grey, 400);
+    border-left: 0;
+
+    tr {
+      &:first-child {
+        td {
+          border-top: 0;
+        }
+      }
+    }
+
+    th, td {
+      border-left: 1px solid _color(grey, 400);
+    }
+  }
+}

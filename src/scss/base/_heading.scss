@@ -1,0 +1,28 @@
+@import "pack/seed-color-scheme/_index";
+
+h1, h2, h3, h4, h5, h6 {
+  color: _color(charcoal, 600);
+  font-weight: 500;
+  margin-bottom: .65em;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+h2 {
+  font-size: 1.56em;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+h4 {
+  font-size: 1.3em;
+}
+
+h5 {
+  font-size: 1em;
+}
