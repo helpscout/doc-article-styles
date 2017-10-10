@@ -1,0 +1,36 @@
+@import "pack/seed-color-scheme/_index";
+
+ul, ol {
+  list-style-position: inside;
+  padding-left: 0.75em;
+}
+
+li {
+  margin-bottom: 0.75em;
+}
+
+dl {
+  clear: both;
+  margin: 0 0 1em;
+
+  dt {
+    background: _color(blue, 500);
+    border-radius: 50px;
+    color: _color(white);
+    display: inline-block;
+    float: left;
+    font-size: 0.9em;
+    height: 30px;
+    line-height: 28px;
+    margin: 0;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    width: 30px;
+  }
+
+  dd {
+    padding-top: 3px;
+    margin: 0 0 1.5em 3em;
+  }
+}

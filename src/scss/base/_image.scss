@@ -1,0 +1,16 @@
+@import "pack/seed-color-scheme/_index";
+
+img {
+  border-radius: 4px;
+  border: 1px solid _color(grey, 400);
+  box-shadow: 0px 3px 8px 0 rgba(0, 0, 0, 0.04);
+  display: block;
+  margin: 1em 0 2em;
+  padding: 0.3em;
+
+  &.noBdr {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
