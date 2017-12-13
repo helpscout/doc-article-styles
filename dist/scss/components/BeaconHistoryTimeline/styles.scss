@@ -1,0 +1,55 @@
+/**
+ * @helpscout/doc-article-styles v0.0.4
+ * Doc Article CSS
+ * 
+ */
+
+.c-BeaconHistoryTimeline { max-width: 800px; width: 100%; }
+
+.c-BeaconHistoryTimeline { box-sizing: border-box; }
+
+.c-BeaconHistoryTimeline { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+
+.c-BeaconHistoryTimeline * { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineHeading { font-size: 15px; font-weight: bold; line-height: 1.1; margin-bottom: 12px; }
+
+.c-BeaconHistoryTimelineHeading { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineHeading { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+
+.c-BeaconHistoryTimelineHeading * { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineList { width: 100%; }
+
+.c-BeaconHistoryTimelineList { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineList { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+
+.c-BeaconHistoryTimelineList * { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineListItem { color: #253540; display: block; line-height: 1.5; margin-left: 4px; padding: 6px 0 6px 20px; position: relative; }
+
+.c-BeaconHistoryTimelineListItem { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineListItem { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+
+.c-BeaconHistoryTimelineListItem * { box-sizing: border-box; }
+
+.c-BeaconHistoryTimelineListItem__block { max-width: calc(100% - 60px); }
+
+.c-BeaconHistoryTimelineListItem__timestamp { min-width: 60px; }
+
+.c-BeaconHistoryTimelineListItem::before { background-color: #e3e8eb; bottom: 0; content: ""; left: 4px; position: absolute; top: 0; width: 2px; z-index: 0; }
+
+.c-BeaconHistoryTimelineListItem::after { background-color: white; border-radius: 50%; border: 2px solid #a5b2bd; content: ""; display: block; height: 6px; left: 0; position: absolute; top: 11px; width: 6px; z-index: 1; }
+
+.c-BeaconHistoryTimelineListItem:first-child::before { bottom: 0; top: 11px; }
+
+.c-BeaconHistoryTimelineListItem:last-child::before { bottom: calc(100% - (11px + (6px/2))); top: 0; }
+
+.c-BeaconHistoryTimelineListItem:only-child::before { display: none; }
+
+.c-BeaconHistoryTimelineListItem a { color: #1B79B5; cursor: pointer; outline: none; text-decoration: none; }
+
+.c-BeaconHistoryTimelineListItem a:hover { color: #2091d9; text-decoration: underline; }
