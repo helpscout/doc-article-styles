@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.0.6
+ * @helpscout/doc-article-styles v0.0.7
  * Doc Article CSS
  * Web
  */
@@ -88,9 +88,9 @@
 
 #fullArticle img.noBdr { border: 0; border-radius: 0; box-shadow: none; }
 
-#fullArticle ul, #fullArticle ol { list-style-position: inside; padding-left: 0.75em; }
+#fullArticle ul, #fullArticle ol { list-style-position: inside; padding-left: 0; }
 
-#fullArticle li { margin-bottom: 0.75em; }
+#fullArticle li { margin-bottom: 0.2em; }
 
 #fullArticle dl { clear: both; margin: 0 0 1em; }
 
