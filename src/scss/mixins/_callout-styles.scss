@@ -2,13 +2,13 @@
 
 @mixin callout-styles($background, $border, $color, $dashed-color) {
   $callout-brdr: 2px;
-  $callout-copy-margin: 0 0 0.55em;
+  $callout-copy-margin: 0 0 0.3em;
   $callout-margin: 0 0 2em;
-  $callout-padding: 1em 1.5em;
+  $callout-padding: 1.2em 1em 1em;
   $callout-weight: 400;
 
   background: $background;
-  border-left: 5px solid $border;
+  border-left: 3px solid $border;
   border-radius: $callout-brdr;
   margin: $callout-margin;
   padding: $callout-padding;
