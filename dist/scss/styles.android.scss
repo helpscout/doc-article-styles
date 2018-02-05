@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.0.8
+ * @helpscout/doc-article-styles v0.0.9
  * Doc Article CSS
  * Android
  */
@@ -82,7 +82,9 @@
 
 #fullArticle pre { background: #f1f3f5; border-radius: 3px; color: #4f5d6b; font-family: "Roboto Mono", Consolas, "Andale Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace; font-size: .9em; margin: 0 0 2em; overflow: auto; padding: 1.3em 1em; }
 
-#fullArticle h1, #fullArticle h2, #fullArticle h3, #fullArticle h4, #fullArticle h5, #fullArticle h6 { color: #2a3b47; font-weight: 500; margin-bottom: .65em; }
+#fullArticle h1, #fullArticle h2, #fullArticle h3, #fullArticle h4, #fullArticle h5, #fullArticle h6 { color: #2a3b47; font-weight: 500; margin-bottom: .65em; margin-top: 1.26em; }
+
+#fullArticle h1:first-child, #fullArticle h2:first-child, #fullArticle h3:first-child, #fullArticle h4:first-child, #fullArticle h5:first-child, #fullArticle h6:first-child { margin-top: 0; }
 
 #fullArticle h1 { font-size: 2em; margin: .67em 0; }
 
