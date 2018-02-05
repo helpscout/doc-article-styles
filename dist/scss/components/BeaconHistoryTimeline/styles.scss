@@ -1,14 +1,22 @@
 /**
- * @helpscout/doc-article-styles v0.0.7
+ * @helpscout/doc-article-styles v0.0.8
  * Doc Article CSS
  * 
  */
 
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 .c-BeaconHistoryTimeline { max-width: 800px; width: 100%; }
 
 .c-BeaconHistoryTimeline { box-sizing: border-box; }
 
-.c-BeaconHistoryTimeline { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimeline { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
 
 .c-BeaconHistoryTimeline * { box-sizing: border-box; }
 
@@ -16,7 +24,7 @@
 
 .c-BeaconHistoryTimelineHeading { box-sizing: border-box; }
 
-.c-BeaconHistoryTimelineHeading { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineHeading { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
 
 .c-BeaconHistoryTimelineHeading * { box-sizing: border-box; }
 
@@ -24,7 +32,7 @@
 
 .c-BeaconHistoryTimelineList { box-sizing: border-box; }
 
-.c-BeaconHistoryTimelineList { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineList { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
 
 .c-BeaconHistoryTimelineList * { box-sizing: border-box; }
 
@@ -32,7 +40,7 @@
 
 .c-BeaconHistoryTimelineListItem { box-sizing: border-box; }
 
-.c-BeaconHistoryTimelineListItem { font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineListItem { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
 
 .c-BeaconHistoryTimelineListItem * { box-sizing: border-box; }
 
