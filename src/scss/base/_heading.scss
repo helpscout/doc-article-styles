@@ -4,6 +4,11 @@ h1, h2, h3, h4, h5, h6 {
   color: _color(charcoal, 600);
   font-weight: 500;
   margin-bottom: .65em;
+  margin-top: 1.26em;
+
+  &:first-child {
+    margin-top: 0;
+  }
 }
 
 h1 {
