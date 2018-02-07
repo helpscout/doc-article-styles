@@ -6,19 +6,21 @@
 
   // Reset Section
   color: _color(charcoal, 400);
-  font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', 'Helvetica', sans-serif;
   line-height: 1.75em;
-  padding: 1em;
 
   // Base
   @import "../resets/selectors";
+  @import "../base/base";
   @import "../base/blockquote";
   @import "../base/code";
+  @import "../base/div";
   @import "../base/heading";
   @import "../base/hr";
   @import "../base/image";
   @import "../base/list";
   @import "../base/link";
+  @import "../base/p";
   @import "../base/table";
   @import "../base/text";
 

@@ -29,4 +29,8 @@ dl {
     padding-top: 3px;
     margin: 0 0 1.5em 2em;
   }
+
+  p:first-child {
+    margin-top: 0;
+  }
 }
