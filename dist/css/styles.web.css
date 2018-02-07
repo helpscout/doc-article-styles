@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.0.9
+ * @helpscout/doc-article-styles v0.0.10
  * Doc Article CSS
  * Web
  */
@@ -66,7 +66,7 @@
 
 .c-BeaconHistoryTimelineListItem a:hover { color: #2091d9; text-decoration: underline; }
 
-#fullArticle { color: #4f5d6b; font-family: "Aktiv Grotesk", "Helvetica Neue", Helvetica, Arial, sans-serif; line-height: 1.75em; padding: 1em; }
+#fullArticle { color: #4f5d6b; font-family: 'Roboto', 'Helvetica', sans-serif; line-height: 1.75em; }
 
 #fullArticle { box-sizing: border-box; }
 
@@ -78,9 +78,15 @@
 
 #fullArticle a, #fullArticle input, #fullArticle select, #fullArticle textarea { outline: 0 !important; }
 
+#fullArticle { padding: 0; }
+
+#fullArticle > *:first-child { margin-top: 0; }
+
 #fullArticle blockquote { border-left: 2px solid #e3e8eb; font-size: 1em; font-style: italic; margin: 1.5em 1.2em 1.5em 0; padding: 0 0 0 1em; }
 
 #fullArticle pre { background: #f1f3f5; border-radius: 3px; color: #4f5d6b; font-family: "Roboto Mono", Consolas, "Andale Mono", "Lucida Console", Monaco, "Courier New", Courier, monospace; font-size: .9em; margin: 0 0 2em; overflow: auto; padding: 1.3em 1em; }
+
+#fullArticle > div { margin-bottom: 1.5em; margin-top: 1em; }
 
 #fullArticle h1, #fullArticle h2, #fullArticle h3, #fullArticle h4, #fullArticle h5, #fullArticle h6 { color: #2a3b47; font-weight: 500; margin-bottom: .65em; margin-top: 1.26em; }
 
@@ -92,7 +98,7 @@
 
 #fullArticle h3 { font-size: 1.4em; }
 
-#fullArticle h4 { font-size: 1.3em; }
+#fullArticle h4 { font-size: 1.24em; }
 
 #fullArticle h5 { font-size: 1em; }
 
@@ -112,9 +118,13 @@
 
 #fullArticle dl dd { padding-top: 3px; margin: 0 0 1.5em 2em; }
 
+#fullArticle dl p:first-child { margin-top: 0; }
+
 #fullArticle a { color: #3197d6; text-decoration: none; }
 
 #fullArticle a:hover { text-decoration: underline; }
+
+#fullArticle p { margin-bottom: 1.5em; margin-top: 1em; }
 
 #fullArticle table { border-collapse: collapse; border-spacing: 0; width: 100%; }
 
