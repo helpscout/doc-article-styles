@@ -12,7 +12,7 @@
     "release:patch": "np patch --no-yarn --yolo",
     "release:minor": "np minor --no-yarn --yolo",
     "release:major": "np major --no-yarn --yolo",
-    "release": "npm run release:patch",
+    "release": "np --no-yarn --yolo",
     "start": "gulp",
     "test": "npm run build",
     "version": "npm run build && git add dist"
