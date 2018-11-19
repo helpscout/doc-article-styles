@@ -4,18 +4,6 @@
  * iOS
  */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
 .c-BeaconHistoryTimeline { max-width: 800px; width: 100%; }
 
 .c-BeaconHistoryTimeline { box-sizing: border-box; }
@@ -191,3 +179,5 @@
 #fullArticle .callout-red pre { background: #e3e8eb; color: #394956; margin: 0 0 0.3em; }
 
 #fullArticle .callout-red.dashed { border: 1px dashed #e52f28; }
+
+#fullArticle { padding: 0 15px; }
