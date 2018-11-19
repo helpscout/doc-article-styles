@@ -1,63 +1,141 @@
 /**
  * @helpscout/doc-article-styles v0.0.10
  * Doc Article CSS
- * 
+ *
  */
 
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
-.c-BeaconHistoryTimeline { max-width: 800px; width: 100%; }
+.c-BeaconHistoryTimeline {
+  max-width: 800px;
+  width: 100%;
+}
 
-.c-BeaconHistoryTimeline { box-sizing: border-box; }
+.c-BeaconHistoryTimeline {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimeline { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimeline {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+}
 
-.c-BeaconHistoryTimeline * { box-sizing: border-box; }
+.c-BeaconHistoryTimeline * {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineHeading { font-size: 15px; font-weight: bold; line-height: 1.1; margin-bottom: 12px; }
+.c-BeaconHistoryTimelineHeading {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
 
-.c-BeaconHistoryTimelineHeading { box-sizing: border-box; }
+.c-BeaconHistoryTimelineHeading {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineHeading { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineHeading {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+}
 
-.c-BeaconHistoryTimelineHeading * { box-sizing: border-box; }
+.c-BeaconHistoryTimelineHeading * {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineList { width: 100%; }
+.c-BeaconHistoryTimelineList {
+  width: 100%;
+}
 
-.c-BeaconHistoryTimelineList { box-sizing: border-box; }
+.c-BeaconHistoryTimelineList {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineList { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineList {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+}
 
-.c-BeaconHistoryTimelineList * { box-sizing: border-box; }
+.c-BeaconHistoryTimelineList * {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineListItem { color: #253540; display: block; line-height: 1.5; margin-left: 4px; padding: 6px 0 6px 20px; position: relative; }
+.c-BeaconHistoryTimelineListItem {
+  color: #253540;
+  display: block;
+  line-height: 1.5;
+  margin-left: 4px;
+  padding: 6px 0 6px 20px;
+  position: relative;
+}
 
-.c-BeaconHistoryTimelineListItem { box-sizing: border-box; }
+.c-BeaconHistoryTimelineListItem {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineListItem { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
+.c-BeaconHistoryTimelineListItem {
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+}
 
-.c-BeaconHistoryTimelineListItem * { box-sizing: border-box; }
+.c-BeaconHistoryTimelineListItem * {
+  box-sizing: border-box;
+}
 
-.c-BeaconHistoryTimelineListItem__block { max-width: calc(100% - 60px); }
+.c-BeaconHistoryTimelineListItem__block {
+  max-width: calc(100% - 60px);
+}
 
-.c-BeaconHistoryTimelineListItem__timestamp { min-width: 60px; }
+.c-BeaconHistoryTimelineListItem__timestamp {
+  min-width: 60px;
+}
 
-.c-BeaconHistoryTimelineListItem::before { background-color: #e3e8eb; bottom: 0; content: ""; left: 4px; position: absolute; top: 0; width: 2px; z-index: 0; }
+.c-BeaconHistoryTimelineListItem::before {
+  background-color: #e3e8eb;
+  bottom: 0;
+  content: "";
+  left: 4px;
+  position: absolute;
+  top: 0;
+  width: 2px;
+  z-index: 0;
+}
 
-.c-BeaconHistoryTimelineListItem::after { background-color: white; border-radius: 50%; border: 2px solid #a5b2bd; content: ""; display: block; height: 6px; left: 0; position: absolute; top: 11px; width: 6px; z-index: 1; }
+.c-BeaconHistoryTimelineListItem::after {
+  background-color: white;
+  border-radius: 50%;
+  border: 2px solid #a5b2bd;
+  content: "";
+  display: block;
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 11px;
+  width: 6px;
+  z-index: 1;
+}
 
-.c-BeaconHistoryTimelineListItem:first-child::before { bottom: 0; top: 11px; }
+.c-BeaconHistoryTimelineListItem:first-child::before {
+  bottom: 0;
+  top: 11px;
+}
 
-.c-BeaconHistoryTimelineListItem:last-child::before { bottom: calc(100% - (11px + (6px/2))); top: 0; }
+.c-BeaconHistoryTimelineListItem:last-child::before {
+  bottom: calc(100% - (11px + (6px / 2)));
+  top: 0;
+}
 
-.c-BeaconHistoryTimelineListItem:only-child::before { display: none; }
+.c-BeaconHistoryTimelineListItem:only-child::before {
+  display: none;
+}
 
-.c-BeaconHistoryTimelineListItem a { color: #1B79B5; cursor: pointer; outline: none; text-decoration: none; }
+.c-BeaconHistoryTimelineListItem a {
+  color: #1b79b5;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
 
-.c-BeaconHistoryTimelineListItem a:hover { color: #2091d9; text-decoration: underline; }
+.c-BeaconHistoryTimelineListItem a:hover {
+  color: #2091d9;
+  text-decoration: underline;
+}
