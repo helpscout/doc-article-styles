@@ -6,8 +6,15 @@ pre {
   border-radius: 3px;
   color: _color(charcoal, 400);
   font-family: $font-family-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   margin: 0 0 2em;
   overflow: auto;
   padding: 1.3em 1em;
+
+  // Disable border-radius for Firefox.
+  // For some unknown reasons, pre + border-radius styles cause severe
+  // rendering issues with Firefox.
+  @-moz-document url-prefix() {
+    border-radius: initial;
+  }
 }
