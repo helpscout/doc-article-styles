@@ -2,6 +2,19 @@
 
 // Text
 @include _color((
+  blue: (
+    default: #1292EE,
+    100: #F3FBFF,
+    200: #D6EDFF,
+    300: #A0D4FF,
+    400: #57B0FB,
+    500: #1292EE,
+    600: #0077CC,
+    700: #005CA4,
+    800: #034077,
+    900: #002651
+  ),
+
   text: (
     default: _color(charcoal, 700),
     body: _color(charcoal, 400),
