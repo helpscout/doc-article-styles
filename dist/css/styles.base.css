@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.1.1
+ * @helpscout/doc-article-styles v0.1.2
  * Doc Article CSS
  * 
  */
@@ -104,13 +104,13 @@
 
 #fullArticle dl { clear: both; margin: 0 0 1em; }
 
-#fullArticle dl dt { color: inherit; display: inline-block; float: left; font-size: 1em; font-weight: 500; margin: 3px 0 0 0; padding: 0 .5em; color: #2a3b47; border-left: 3px solid #3197d6; }
+#fullArticle dl dt { color: inherit; display: inline-block; float: left; font-size: 1em; font-weight: 500; margin: 3px 0 0 0; padding: 0 .5em; color: #2a3b47; border-left: 3px solid #1292EE; }
 
 #fullArticle dl dd { padding-top: 3px; margin: 0 0 1.5em 2em; }
 
 #fullArticle dl p:first-child { margin-top: 0; }
 
-#fullArticle a { color: #3197d6; text-decoration: none; }
+#fullArticle a { color: #1292EE; text-decoration: none; }
 
 #fullArticle a:hover { text-decoration: underline; }
 
@@ -158,13 +158,13 @@
 
 #fullArticle .callout-yellow.dashed { border: 1px dashed #d79400; }
 
-#fullArticle .callout-blue { background: #daf1ff; border-left: 3px solid #71bff1; border-radius: 2px; margin: 0 0 2em; padding: 1.2em 1em 1em; }
+#fullArticle .callout-blue { background: #D6EDFF; border-left: 3px solid #57B0FB; border-radius: 2px; margin: 0 0 2em; padding: 1.2em 1em 1em; }
 
-#fullArticle .callout-blue h1, #fullArticle .callout-blue h2, #fullArticle .callout-blue h3, #fullArticle .callout-blue h4, #fullArticle .callout-blue h5, #fullArticle .callout-blue h6, #fullArticle .callout-blue p { color: #194c6e; font-weight: 400; margin: 0 0 0.3em; }
+#fullArticle .callout-blue h1, #fullArticle .callout-blue h2, #fullArticle .callout-blue h3, #fullArticle .callout-blue h4, #fullArticle .callout-blue h5, #fullArticle .callout-blue h6, #fullArticle .callout-blue p { color: #034077; font-weight: 400; margin: 0 0 0.3em; }
 
 #fullArticle .callout-blue pre { background: #e3e8eb; color: #394956; margin: 0 0 0.3em; }
 
-#fullArticle .callout-blue.dashed { border: 1px dashed #3197d6; }
+#fullArticle .callout-blue.dashed { border: 1px dashed #1292EE; }
 
 #fullArticle .callout-green { background: #e4fbe6; border-left: 3px solid #81dc9e; border-radius: 2px; margin: 0 0 2em; padding: 1.2em 1em 1em; }
 
