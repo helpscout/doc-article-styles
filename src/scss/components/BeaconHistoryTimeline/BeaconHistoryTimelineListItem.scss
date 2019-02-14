@@ -1,8 +1,8 @@
 @import "../../configs/color";
 
 // Global variable
-$BeaconHistoryTimelineLinkColor: #1B79B5 !default;
-$BeaconHistoryTimelineLinkColor-hover: lighten($BeaconHistoryTimelineLinkColor, 8) !default;
+$BeaconHistoryTimelineLinkColor: _color(link, base) !default;
+$BeaconHistoryTimelineLinkColor-hover: _color(link, hover) !default;
 
 .c-BeaconHistoryTimelineListItem {
   @import "../../resets/base";

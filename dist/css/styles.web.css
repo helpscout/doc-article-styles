@@ -50,9 +50,9 @@
 
 .c-BeaconHistoryTimelineListItem:only-child::before { display: none; }
 
-.c-BeaconHistoryTimelineListItem a { color: #1B79B5; cursor: pointer; outline: none; text-decoration: none; }
+.c-BeaconHistoryTimelineListItem a { color: #0077CC; cursor: pointer; outline: none; text-decoration: none; }
 
-.c-BeaconHistoryTimelineListItem a:hover { color: #2091d9; text-decoration: underline; }
+.c-BeaconHistoryTimelineListItem a:hover { color: #1292EE; text-decoration: underline; }
 
 #fullArticle { color: #4f5d6b; font-family: 'Roboto', 'Helvetica', sans-serif; line-height: 1.75em; }
 
