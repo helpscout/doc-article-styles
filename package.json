@@ -7,12 +7,15 @@
   "scripts": {
     "banner": "node ./scripts/banner.js",
     "clean": "rm -rf dist && mkdir dist",
+    "colorway": "colorway --manifest=doc-article-styles",
+    "prebuild": "npm run colorway",
     "build:css": "node scripts/sass.js",
     "build": "npm run clean && npm run build:css && npm run banner",
     "release:patch": "np patch --no-yarn --yolo",
     "release:minor": "np minor --no-yarn --yolo",
     "release:major": "np major --no-yarn --yolo",
     "release": "np --no-yarn --yolo",
+    "prestart": "npm run colorway",
     "start": "gulp",
     "test": "npm run build",
     "version": "npm run build && git add dist"
@@ -20,6 +23,7 @@
   "author": "ItsJonQ <itsjonq@gmail.com> (http://jonquach.com)",
   "license": "MIT",
   "devDependencies": {
+    "@helpscout/colorway": "0.0.5",
     "browser-sync": "2.26.3",
     "check-dependencies": "1.1.0",
     "glob": "7.1.2",

@@ -1,0 +1,27 @@
+@import 'pack/seed-color-scheme/_index';
+
+@include _color((
+  blue:
+    (
+      default: #1292EE,
+      100: #F3FBFF,
+      200: #D6EDFF,
+      300: #A0D4FF,
+      400: #57B0FB,
+      500: #1292EE,
+      600: #0077CC,
+      700: #005CA4,
+      800: #034077,
+      900: #002651,
+    ),
+));
+
+@include _color((
+  link: (
+    default: _color(blue, 600),
+    base: _color(blue, 600),
+    hover: _color(blue, 500),
+    active: _color(blue, 500),
+    focus: _color(blue, 500),
+  )
+));
