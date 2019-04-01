@@ -6,4 +6,19 @@ html {
 
 #fullArticle {
   padding: 0 15px;
+  font: -apple-system-subheadline;
+}
+
+#fullArticle .c-Article__title {
+    color: #2a3b47;
+    font: -apple-system-title3;
+    line-height: 1.2;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    word-wrap: break-word;
+    font-weight: bolder;
+}
+
+#fullArticle .u-overflow-x {
+    overflow-x: auto;
 }
