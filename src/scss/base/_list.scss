@@ -5,6 +5,13 @@ ul, ol {
   padding-left: 0;
 }
 
+ol {
+  ol {
+    list-style-type: lower-alpha;
+    margin: 0 0 9px 25px;
+  }
+}
+
 li {
   margin-bottom: 0.2em;
 }
