@@ -1,5 +1,9 @@
 // iOS :: Article
 
+html {
+    -webkit-text-size-adjust: none;
+}
+
 #fullArticle {
   padding: 0 15px;
 }
