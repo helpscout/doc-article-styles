@@ -98,7 +98,7 @@
 
 #fullArticle img.noBdr { border: 0; border-radius: 0; box-shadow: none; }
 
-#fullArticle ul, #fullArticle ol { list-style-position: inside; padding-left: 0; }
+#fullArticle ul, #fullArticle ol { list-style-position: outside; padding-left: 1em; }
 
 #fullArticle li { margin-bottom: 0.2em; }
 
