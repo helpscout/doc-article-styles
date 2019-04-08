@@ -1,8 +1,15 @@
 @import "pack/seed-color-scheme/_index";
 
 ul, ol {
-  list-style-position: inside;
-  padding-left: 0;
+  list-style-position: outside;
+  padding-left: 1em;
+}
+
+ol {
+  ol {
+    list-style-type: lower-alpha;
+    margin: 0 0 9px 25px;
+  }
 }
 
 li {
