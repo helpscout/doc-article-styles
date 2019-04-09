@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.1.5
+ * @helpscout/doc-article-styles v0.1.6
  * Doc Article CSS
  * iOS
  */
@@ -98,7 +98,9 @@
 
 #fullArticle img.noBdr { border: 0; border-radius: 0; box-shadow: none; }
 
-#fullArticle ul, #fullArticle ol { list-style-position: inside; padding-left: 0; }
+#fullArticle ul, #fullArticle ol { list-style-position: outside; padding-left: 1em; }
+
+#fullArticle ol ol { list-style-type: lower-alpha; margin: 0 0 9px 25px; }
 
 #fullArticle li { margin-bottom: 0.2em; }
 
@@ -182,4 +184,10 @@
 
 #fullArticle .callout-red.dashed { border: 1px dashed #e52f28; }
 
-#fullArticle { padding: 0 15px; }
+html { -webkit-text-size-adjust: none; }
+
+#fullArticle { padding: 0 15px; font: -apple-system-subheadline; }
+
+#fullArticle .c-Article__title { color: #2a3b47; font: -apple-system-title3; line-height: 1.2; margin-right: 20px; margin-bottom: 15px; word-wrap: break-word; font-weight: bolder; }
+
+#fullArticle .u-overflow-x { overflow-x: auto; }
