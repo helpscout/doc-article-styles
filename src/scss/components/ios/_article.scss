@@ -5,8 +5,8 @@ html {
 }
 
 #fullArticle {
-  padding: 0 15px;
-  font: -apple-system-subheadline;
+    padding: 0 15px;
+    font: -apple-system-subheadline;
 }
 
 #fullArticle .c-Article__title {
@@ -21,4 +21,8 @@ html {
 
 #fullArticle .u-overflow-x {
     overflow-x: auto;
+}
+
+#fullArticle table.table-bordered { 
+    border-collapse: collapse; 
 }
