@@ -26,6 +26,7 @@
     "@helpscout/colorway": "0.0.5",
     "browser-sync": "2.26.3",
     "check-dependencies": "1.1.0",
+    "extend": "3.0.2",
     "glob": "7.1.2",
     "gulp": "3.9.1",
     "gulp-clean-css": "3.9.0",
