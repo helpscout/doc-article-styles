@@ -24,7 +24,7 @@
   "license": "MIT",
   "devDependencies": {
     "@helpscout/colorway": "0.0.5",
-    "browser-sync": "2.26.5",
+    "browser-sync": "2.26.7",
     "check-dependencies": "1.1.0",
     "extend": "3.0.2",
     "glob": "7.1.2",
