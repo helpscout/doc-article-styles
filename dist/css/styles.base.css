@@ -54,15 +54,13 @@
 
 .c-BeaconHistoryTimelineListItem a:hover { color: #1292EE; text-decoration: underline; }
 
-.c-RelatedArticles { color: #4f5d6b; font-family: 'Roboto', 'Helvetica', sans-serif; line-height: 1.75em; position: relative; width: 100%; display: flex; flex-direction: column; }
+.c-RelatedArticles { padding: 20px; color: #4f5d6b; font-family: 'Roboto', 'Helvetica', sans-serif; line-height: 1.75em; position: relative; width: 100%; display: flex; flex-direction: column; background: #f9fafa; }
 
 .c-RelatedArticles { box-sizing: border-box; }
 
 .c-RelatedArticles { font-family: "Roboto", "Helvetica", sans-serif; font-size: 14px; }
 
 .c-RelatedArticles * { box-sizing: border-box; }
-
-.c-RelatedArticles__content { background: #f9fafa; margin: 0 -30px -40px; padding: 20px 30px 15px; }
 
 .c-RelatedArticles__title { color: #1d2b36; font-weight: 500; font-size: 1em; margin-bottom: 1em; padding: 0 1em; }
 
