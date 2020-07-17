@@ -1,5 +1,5 @@
 /**
- * @helpscout/doc-article-styles v0.1.6
+ * @helpscout/doc-article-styles v0.1.7
  * Doc Article CSS
  * Android
  */
@@ -200,4 +200,4 @@
 
 #fullArticle .callout-red.dashed { border: 1px dashed #e52f28; }
 
-.c-article-container { padding: 32px 20px 20px; overflow-x: hidden; overflow-y: auto; }
+.c-article-container { padding: 0 20px 20px; overflow-x: hidden; overflow-y: auto; }
