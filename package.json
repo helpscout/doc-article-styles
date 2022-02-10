@@ -41,7 +41,7 @@
     "is-online": "7.0.0",
     "lazypipe": "1.0.1",
     "mkdirp": "0.5.1",
-    "node-sass": "4.12.0",
+    "node-sass": "7.0.0",
     "np": "4.0.2",
     "run-sequence": "2.2.0",
     "seed-breakpoints": "0.4.1",
